@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeTest;
 
 public class DriverInitiation {
 
-    @BeforeTest
     public WebDriver newDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
